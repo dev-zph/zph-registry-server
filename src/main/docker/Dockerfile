@@ -1,4 +1,4 @@
-FROM zph/java8:1.0
+FROM rsnair2/jdk1.8.0_25
 ADD *.jar /opt/app.jar
 # time zone
 RUN echo "Asia/Shanghai" > /etc/timezone
