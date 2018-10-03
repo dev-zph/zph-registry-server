@@ -1,4 +1,4 @@
-FROM alpine-oraclejdk8:8.131.11-slim
+FROM zph/java8:1.0
 ADD *.jar /opt/app.jar
 # time zone
 RUN echo "Asia/Shanghai" > /etc/timezone
