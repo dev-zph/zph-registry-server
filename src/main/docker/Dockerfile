@@ -1,4 +1,4 @@
-FROM zph/java8
+FROM 127.0.0.1:5000/zph/java
 ADD *.jar /opt/app.jar
 # time zone
 RUN echo "Asia/Shanghai" > /etc/timezone
